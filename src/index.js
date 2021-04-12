@@ -6,7 +6,6 @@ import configureStore from './store/configureStore'
 import {Provider} from 'react-redux'
 
 const store = configureStore()
-// console.log(store)
 
 console.log('state',store.getState())
 

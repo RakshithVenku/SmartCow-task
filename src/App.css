@@ -95,3 +95,15 @@ a{
   bottom : 5px;
   right: 5px
 }
+
+.iframe{
+  width :300px;
+  height :200px
+}
+
+@media screen  and (max-width: 600px) {
+  .iframe{
+    width :150px;
+    height :100px
+  }
+}
