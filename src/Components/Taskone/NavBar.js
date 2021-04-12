@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
           easing: theme.transitions.easing.sharp,
           duration: theme.transitions.duration.leavingScreen,
         }),
-        backgroundColor: "#1687a7",
+        backgroundColor: "#3366ff",
       },
       appBarShift: {
         width: `calc(100% - ${drawerWidth}px)`,
@@ -58,7 +58,7 @@ const useStyles = makeStyles((theme) => ({
         display: "flex",
         alignItems: "center",
         padding: theme.spacing(0, 1),
-        backgroundColor: "#1687a7",
+        backgroundColor: "#3366ff",
         ...theme.mixins.toolbar,
         justifyContent: "flex-end",
       },

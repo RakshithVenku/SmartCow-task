@@ -11,8 +11,8 @@ const InputList = (props) => {
     return (
         <div>
             {str.length > 0 && (
-                <div style={{textAlign : 'left'}}>
-                    <Grid container  display="flex" justifyContent="center">
+                <div>
+                    <Grid container >
                         {str.split('').map((s,i) => {
                                 return <Grid item>
                                           <InputItem s={s} i={i}/>

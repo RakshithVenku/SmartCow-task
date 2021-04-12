@@ -11,8 +11,8 @@ const defaultProps = {
 const InputItem = (props) => {
     const {s,i} = props
     return (
-            <Box borderColor={((i+1) % 3 === 0) ? "blue" : "text.primary"} {...defaultProps} >   
-               <Typography variant="inherit" component="h1" style={{textAlign:'center', margin:'40px'}}>
+            <Box borderColor={((i+1) % 3 === 0) ? "#00cccc" : "grey.500"} {...defaultProps} >   
+               <Typography variant="inherit" component="h1" style={{textAlign:'center', margin:'30px'}}>
                  {s}
                </Typography>
             </Box>
