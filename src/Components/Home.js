@@ -11,8 +11,8 @@ export default function Home() {
           <h1>SmartCow Assignment</h1>
         </div>
         <div className="btn-content">
-            <Link to="/taskone"><Button className="btn-primary" id="t1-btn">Task One</Button></Link>
-            <Link to="/tasktwo"><Button className="btn-primary" id="t2-btn">Task Two</Button></Link>
+            <Link to="/task1"><Button className="btn-primary" id="t1-btn">Task 1</Button></Link>
+            <Link to="/task2"><Button className="btn-primary" id="t2-btn">Task 2</Button></Link>
         </div>
       </div>
     </div>
