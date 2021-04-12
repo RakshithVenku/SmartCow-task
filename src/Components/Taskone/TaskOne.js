@@ -1,9 +1,10 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const TaskOne = (props) => {
     return (
         <div>
-            <h2>Hello, from task 1</h2>
+            <NavBar {...props}/>
         </div>
     )
 }
